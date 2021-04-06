@@ -9,6 +9,7 @@
 
 body {
     font-family: var(--nunito) !important;
+    min-height: 6000px;
 }
 
 .nav-link {

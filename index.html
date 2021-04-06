@@ -16,7 +16,7 @@
 
     <title>Pirol Desain</title>
   </head>
-  <body>
+  <body id="home">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -27,12 +27,12 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav text-uppercase fw-bold">
-              <a class="nav-link me-2" href="#">Home</a>
-              <a class="nav-link me-2" href="#">About</a>
-              <a class="nav-link me-2" href="#">Work</a>
-              <a class="nav-link me-2" href="#">Process</a>
-              <a class="nav-link me-2" href="#">services</a>
-              <a class="nav-link me-2" href="#">testimonials</a>
+              <a class="nav-link me-2" href="#home">Home</a>
+              <a class="nav-link me-2" href="#about-us">About</a>
+              <a class="nav-link me-2" href="#work">Work</a>
+              <a class="nav-link me-2" href="#process">Process</a>
+              <a class="nav-link me-2" href="#services">services</a>
+              <a class="nav-link me-2" href="#testimonials">testimonials</a>
               <a class="nav-link" href="#">contact</a>
             </div>
           </div>
@@ -54,7 +54,7 @@
     <!-- Akhir Hero -->
 
     <!-- About Us -->
-    <section class="about-us mt-4">
+    <section class="about-us mt-4" id="about-us">
         <div class="container d-flex justify-content-center">
             <div class="about-txt text-center">
                 <h1 class="pt-5 fw-bold">About Us</h1>
@@ -65,7 +65,7 @@
     <!-- Akhir About Us -->
 
     <!-- Skill -->
-    <section class="skill mt-5">
+    <section class="skill mt-5" id="skill">
       <div class="container">
         <h1>Profesional Skill</h1>
         <div class="pb">
@@ -136,7 +136,7 @@
     <!-- Akhir Timeline -->
 
     <!-- Work -->
-    <section class="work">
+    <section class="work" id="work">
         <div class="row row-work">
           <div class="col-md">
             <img src="image/tumb3.jpg" class="img-fluid" alt="tumb">
@@ -174,7 +174,7 @@
     <!-- Akhir Work -->
 
     <!-- Process -->
-    <section class="process">
+    <section id="process" class="mb-5 pb-5">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -193,7 +193,7 @@
     <!-- Akhir Process -->
 
     <!-- Services -->
-    <section class="services pt-5 pb-5">
+    <section class="services pt-5 pb-5" id="services">
       <div class="container">
         <div class="row text-uppercase text-center">
           <div class="col-sm mt-5">
@@ -236,9 +236,20 @@
     <!-- Akhir Services -->
 
     <!-- Testimonials -->
-    <section class="testimonials">
+    <section id="testimonials">
       <div class="container">
-
+        <div class="row">
+          <div class="col">
+            <figure class="text-center">
+              <blockquote class="blockquote d-flex ">
+                <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nam, tenetur illum aperiam expedita ut quibusdam doloribus numquam veniam vel.</p>
+              </blockquote>
+              <figcaption class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
       </div>
     </section>
     <!-- Akhir Testimonials -->
